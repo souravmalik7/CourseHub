@@ -1,0 +1,45 @@
+.topic-root {
+    margin: 10px 125px;
+}
+
+.topic-detail {
+    margin: 40px 0px;
+    display: flex;
+}
+
+.topic-user {
+    width: 15%;
+    text-align: center;
+}
+
+.topic-desc {
+    width: 70%;
+}
+
+.add-comment {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.comment-box {
+    width: 80%;
+}
+
+.comment-btn {
+    width: 10%;
+    text-align: right;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment-user {
+    width: 20%;
+    text-align: center;
+}
+
+.comment-text {
+    width: 80%;
+}

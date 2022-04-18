@@ -1,0 +1,13 @@
+.tbl {
+    width: 100%;
+}
+
+.tbl-cell2 {
+    text-align: right;
+}
+
+.wishlist-btn {
+    width: 50px;
+    margin-left: auto;
+    display: flex;
+}

@@ -1,0 +1,54 @@
+.wishlist-root {
+    margin: 10px 125px;
+}
+
+.course-root {
+    /* text-align: center; */
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0em;
+    color: white;
+    max-width: 100%;
+}
+
+.course {
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin: 10px;
+    color: black;
+    max-width: 100%;
+}
+
+.course-detail {
+    padding: 1em;
+}
+
+.course-img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.course-img > img {
+    max-width: 100%;
+}
+
+.course-desc {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.tbl {
+    width: 100%;
+}
+
+.tbl-cell2 {
+    text-align: right;
+}
+
+.wishlist-btn {
+    width: 50px;
+    margin-left: auto;
+    display: flex;
+}

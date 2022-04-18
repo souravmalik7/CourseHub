@@ -1,0 +1,20 @@
+.custom-card {
+    margin-top: 10px;
+}
+
+.button-position{
+    margin-left:50%;
+}
+
+.button-size{
+    width:15%;
+}
+.button-margin{
+    margin-left: 84%;
+}
+@media only screen and (max-width: 800px) {
+    .button-size{
+        width: 70px;
+        height: 30px;
+    }
+}

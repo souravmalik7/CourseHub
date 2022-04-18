@@ -1,0 +1,13 @@
+.favorite-btn {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 5px silver;
+}
+
+.favorite-btn > * {
+    width: 100%;
+    text-align: center;
+}

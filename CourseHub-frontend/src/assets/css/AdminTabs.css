@@ -1,0 +1,33 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.tabs ul {
+  display: flex;
+  border-bottom: solid 1px #d9d9d9;
+  background: #f6f7f7;
+  margin-bottom: 0px !important;
+  padding-left: 0px !important;
+}
+
+.tabs ul li {
+  list-style: none;
+  padding-right: 10px;
+  opacity: 1;
+  border-bottom: none;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: solid 1px #d9d9d9;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.active {
+  background: white !important;
+  border-bottom: solid 3px #3f51b5 !important;
+  color: #3f51b5;
+}
+
+.tabs ul .user-management {
+  border-top-left-radius: 5px;
+}

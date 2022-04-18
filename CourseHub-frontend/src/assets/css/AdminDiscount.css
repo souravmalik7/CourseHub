@@ -1,0 +1,47 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.add-discount {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.discount-table {
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.discount-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  background-color: #f2f2f2;
+}
+
+.discount-table tbody tr td {
+  padding: 10px;
+  font-size: 12px;
+}
+
+input {
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: solid 1px #95989a;
+}
+
+.actions {
+  display: flex;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.error {
+  border: 1px solid red;
+}

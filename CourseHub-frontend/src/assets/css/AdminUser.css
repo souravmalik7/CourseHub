@@ -1,0 +1,72 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.table-container {
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+}
+
+.userGrid {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 760px;
+}
+
+.userGrid th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.userGrid th,
+.userGrid tr:not(:last-child) td {
+  border-bottom: solid 1px #cacaca;
+}
+
+.userGrid td:not(:last-child),
+.userGrid th:not(:last-child) {
+  border-right: 1px solid #cacaca;
+}
+
+.users {
+  padding: 10px;
+  background: white;
+  z-index: -1;
+  min-height: calc(100vh - 122px);
+}
+
+.users .users-heading {
+  padding: 5px 5px 5px 0px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.userGrid tbody tr td {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.userGrid tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.userGrid thead {
+  position: sticky;
+  top: 0px;
+}
+
+.edit-icon,
+.delete-icon {
+  color: #607373;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.table-container {
+  max-height: calc(100vh - 190px);
+  overflow-y: auto;
+}

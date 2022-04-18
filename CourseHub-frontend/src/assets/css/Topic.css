@@ -1,0 +1,38 @@
+.discussion-forum-root {
+    margin: 10px 125px;
+}
+
+.topic {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.topic-user {
+    width: 20%;
+}
+
+.topic-metadata {
+    width: 75%;
+}
+
+.delete-icon {
+    width: 5%;
+    text-align: right;
+}
+
+.icon_delete {
+    cursor: pointer;
+}
+
+.topic-description-limit {
+    max-height: 70px;
+    overflow: hidden;
+}
+
+.topic-name {
+    cursor: pointer;
+}
+
+.new-thread-btn {
+    text-align: right;
+}

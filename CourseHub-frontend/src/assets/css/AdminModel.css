@@ -1,0 +1,86 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.modalContainer {
+  position: fixed;
+  background: white;
+  width: 500px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
+.edit-modal-width {
+  width: 465px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-bottom: 1px solid #cacaca;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.modalBody {
+  padding: 15px 15px;
+  border-bottom: 1px solid #cacaca;
+  background-color: #f6f6f6;
+}
+
+.delete-body {
+  height: 75px;
+  font-size: 15px;
+}
+
+.modalFooter {
+  padding: 15px 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.primary-button {
+  background: #3f51b5;
+  color: white;
+}
+
+.secondary-button {
+  color: #3f51b5;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.button {
+  font-size: 15px;
+  outline: none;
+  border-radius: 4px;
+  border: solid 1px #3f51b5;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+}

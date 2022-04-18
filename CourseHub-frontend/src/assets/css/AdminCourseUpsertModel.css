@@ -1,0 +1,32 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.editCourseModalBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.editCourseModalBody .group {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.group label {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.group input {
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: solid 1px #95989a;
+}
+
+.group input:disabled {
+  cursor: no-drop;
+}

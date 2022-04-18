@@ -1,0 +1,26 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.toaster-container {
+  padding: 15px;
+  position: fixed;
+  bottom: 50px;
+  right: 56px;
+  border-radius: 3px;
+  min-height: 20px;
+  max-width: 320px;
+}
+
+.success {
+  border: solid 1px #1dc116;
+  color: #1dc116;
+  background: #eaf3ea;
+  font-size: 15px;
+}
+
+.failure {
+  border: solid 1px #e20909;
+  color: #e20909;
+  background: #f6eaea;
+  font-size: 15px;
+}

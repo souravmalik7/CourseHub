@@ -1,0 +1,28 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.protoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  max-width: 70px;
+  height: 100%;
+  max-height: 40px;
+}
+
+.app-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  /* padding-left: 1rem; */
+}

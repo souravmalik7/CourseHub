@@ -1,0 +1,9 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.errorMessage {
+  font-size: 11px;
+  color: red;
+  position: absolute;
+  bottom: 0;
+}

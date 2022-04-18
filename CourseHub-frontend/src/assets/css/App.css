@@ -1,0 +1,126 @@
+/*=======================================================
+ Author: [Sourav Malik] (sr343164@dal.ca)
+========================================================= */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2") format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin-app {
+  height: 96vh;
+  background-color: #3f51b5;
+  overflow: hidden;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+  pointer-events: none;
+}
+
+.icon {
+  color: #607373;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.add-primary {
+  display: flex;
+  align-items: center;
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-primary-discount {
+  font-size: 16px;
+  margin: 0 !important;
+}
+
+.add-primary span {
+  margin-right: 5px;
+}
+
+/* html {
+  font-size: 10px;
+} */
